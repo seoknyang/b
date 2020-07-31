@@ -1,0 +1,47 @@
+body {
+	margin: 0px;
+}
+.center {
+	height: 550px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.login-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #CFCFCF;
+	width: 25%;
+	height: 280px;
+}
+
+.login-box > form { 
+	width: 80%;
+}
+
+.login-id,
+.login-pass {
+	line-height: 35px;
+	height: 35px;
+	width: 97%;
+}
+.login-btn {
+	border: 1px solid #1245AB;
+	background-color: #1245AB;
+	color: white;
+	font-size: 15px;
+	width: 100%;
+	height: 40px;
+}
+.id-save {
+	display: inline;
+	font-size: 12px;
+}
+.id-search {
+	text-decoration: none;
+	font-size: 10px;
+}
+.id-search:hover {
+	color: gray;
+}

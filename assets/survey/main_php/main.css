@@ -1,0 +1,107 @@
+body, html {
+	margin: 0px;
+}
+#survey_info {
+	margin-top: 70px;
+}
+.search_list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 70px;
+}
+.search_list div:not(:nth-child(3n)) {
+	margin-right: 40px;
+}
+.search_list div span{
+	margin-right: 10px;
+}
+.sbtn {
+	padding: 5px 20px;
+	margin-left: 10px;
+	background-color: #1245AB;
+	color: white;
+	border: none;
+}
+.sbtn:hover {
+	background-color: gray;
+	color: white;
+}
+hr {
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#survey_add {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	text-align: right;
+	margin-bottom: 10px;
+}
+#new_survey {
+	padding: 5px 30px;
+	background-color: #9F9F9F;
+	color: white;
+	border: none;
+}
+#new_survey:hover {
+	background-color: #B1B1B1;
+	color: white;
+}
+.survey_table {
+    border: 1px solid #bcbcbc;
+    display: table;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.survey_table_row {
+    display: table-row;
+}
+.table_title {
+	text-align: center;
+	background: #1245AB;
+	color: white;
+    display: table-cell;
+}
+.survey_table_cell {
+    text-align: center;
+    border: 1px solid #bcbcbc;
+    display: table-cell;
+}
+.control {
+	width: 15%;
+}
+.control_btn {
+	padding: 5px 10px;
+	background-color: #1245AB;
+	color: white;
+	border: none;
+}
+.control_btn:hover {
+	background-color: gray;
+	color: white;
+}
+.control_btn:not(:last-child) {
+	margin-right: 10px;
+}
+.shift_table_btn {
+	margin-top: 10px;
+	text-align: center;
+}
+.shift_table_btn a {
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+}
+.shift_table_btn a:hover {
+	color: gray;
+}
+.end {
+	color: #FF5A5A;
+}
+.ing {
+	color: #3736FF;
+}

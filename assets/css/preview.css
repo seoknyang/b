@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+}
+.preview {
+	margin:60px 40px ;
+}
+.preview_title {
+	margin-bottom: 40px;
+}
+.desc_content {
+	font-size: 19px;
+}
+hr {
+	margin: 50px 0px 30px;
+}
+input {
+	margin: 0px;
+}
+.preview_table {
+    display: table;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.right_now_btn {
+	background-color: #1245AB;
+	border: none;
+	color: white;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+.right_now_btn:hover {
+	background-color: gray;
+	color: white;
+}
+.table_row {
+    display: table-row;
+}
+.table_title {
+    display: table-cell;
+    width: 5%;
+    height: 50px;
+}
+.table_cell {
+    display: table-cell;
+    height: 50px;
+}
+.num_text {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	border-bottom: 2px solid #1245AB;
+	padding: 10px 0px;
+}
+.title_text {
+	margin-left: 40px;
+	font-size: 20px;
+}
+.table_title .answer_title {
+	font-size: 18px;
+	text-align: center;
+}
+.table_cell label {
+	margin-left: 40px;
+}
+.table_cell .radio {
+	margin-right: 15px;
+	height: 18px;
+	width: 18px;
+}
+.table_cell .answer_text {
+	font-size: 17px;
+}
+.table_cell .checkbox {
+	margin-right: 15px;
+	height: 18px;
+	width: 18px;
+}

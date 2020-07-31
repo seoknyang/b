@@ -1,0 +1,122 @@
+body {
+    background-color: whitesmoke;
+    min-width: 500px;
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h2{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#main {
+    padding: 0 50px;
+}
+
+/* 앞에 위로 올리기. */
+p {
+    display: inline;
+    vertical-align: top;
+}
+
+input[type="textbox"], textarea{
+    font-size: 20px;
+    width: 100%;
+}
+
+textarea{
+    font-size: 20px;
+    height: 60px;
+}
+
+select {
+    padding: 4px 0px;
+}
+
+input[type="button"]{
+    border: none;
+    background-color: gray;
+    font-size: 15px;
+}
+#createItem {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #1245AB;
+    border: none;
+    color: white;
+}
+#createItem:hover {
+    background: gray;
+}
+
+
+#table{
+    display: table;
+}
+
+.row{
+    display:table-row;
+    height: 30px;
+}
+
+.cell{
+    display:table-cell;
+    width: 400px;
+    vertical-align: middle;
+}
+
+.cell:first-child{
+    width: 80px;
+    max-width:80px;
+    overflow: hidden;
+}
+
+.cell:nth-child(2){
+    max-width: 400px;
+    overflow: hidden;
+    width: 400px;
+    padding-right: 20px;
+}
+
+.cell:nth-child(3){
+    width: 50px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.textbox{
+    width: 800px;
+    max-width:800px;
+    height: 80px;
+}
+
+.cell.file{
+    width: 200px;
+    max-width: 200px;
+}
+.control_box {
+    margin-top: 50px;
+    text-align: center;
+}
+.control_btn {
+    padding: 10px 35px;
+    background-color: #1245AB;
+    color: white;
+    border: none;
+}
+.control_btn:hover {
+    background-color: gray;
+}

@@ -1,0 +1,25 @@
+.answer_table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+.title {
+    background-color: #1245AB;
+    color: white;
+}
+.answer_cell {
+
+    padding: 16px;
+}
+.subj_btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #1245AB;
+    background-color: #1245AB;
+    padding: 5px 20px;
+}
+.subj_btn:hover {
+    background-color: gray;
+    border: 0;
+}

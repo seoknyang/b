@@ -1,0 +1,118 @@
+/* input , title */
+body, html {
+	margin: 0px;
+}
+.file_upload {
+	width: 80%;
+	margin: 30px auto ;
+	text-align: left;
+}
+
+.survey_content {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+.title_text {
+	display: inline-block;
+	font-size: 20px;
+	width: 150px;
+	vertical-align: top;
+}
+.title_content {
+	width: 50%;
+	line-height: 30px;
+	height: 30px;
+}
+/* 테이블 */
+
+.survey_table{
+  display: table;
+}
+
+.survey_table_row {
+  display: table-row;
+}
+
+.survey_table_cell {
+  border: 1px solid #bcbcbc;
+  display: table-cell;
+  height: 30px;
+  padding: 0px 30px;
+}
+
+.merged {
+  width: 10%;
+  background: green;
+}
+
+.sdate{
+margin-right: 20px;
+}
+
+.date{
+	margin-right: 15px;
+	font-size: 18px;
+	width: 80px;
+}
+
+.survey_table_button{
+	margin-top: 20px;
+}
+
+.survey_table{
+	margin-top: 20px;
+}
+
+textarea{
+	width: 50%;
+	height: 100px;
+}
+
+.survey_table_row:first-child .survey_table_cell{
+	border: 0px;
+	background-color: #1245AB;
+	color: white;
+	text-align: center;
+}
+
+a.button{
+	background-color: #1245AB;
+	color: white;
+	padding: 10px 15px;
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 7px;
+}
+
+a.button:hover{
+	background-color: gray;
+}
+
+.survey_table_button button:hover{
+	background-color: gray;
+}
+
+#new_item{
+	border: 0px;
+	background-color: #1245AB;
+	color: white;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+
+#new_item:hover{
+	background-color: gray;
+}
+
+input.use_check{
+	width: 25px; /*Desired width*/
+	height: 25px; /*Desired height*/
+	cursor: pointer;
+	margin: 0;
+}
+
+input.people, .survey_target, .people_text{
+	font-size: 18px;
+}

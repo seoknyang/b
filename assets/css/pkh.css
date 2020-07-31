@@ -1,0 +1,47 @@
+.sv_form {
+	margin:0 auto;
+	width: 900px;
+}
+
+.fl { float: left; }
+.fr { float: right; }
+.cb { clear: both; }
+
+.sv_question_form p {
+	padding: 0px;
+	margin: 0px;
+}
+
+table.simple_table{ border-top:2px solid #79bb33; text-align:center; clear:both; background:#fff; }
+table.simple_table tr{ border-bottom:1px solid #ddd; }
+table.simple_table th{ padding:10px 0px; background:#F9F9F9; font-weight:bold;  font-size:13px; }
+table.simple_table td{ padding:9px 0px; font-size:12px; }
+
+.simple_board {width: 900px; border-top: 2px solid #09418b; border-bottom: 2px solid #09418b; font-size: 0.93rem; margin:20px auto; word-break:keep-all;}
+.simple_board thead tr th {text-align:center; color:#09418b; background: #f7f7f7; padding:8px 5px; border-right: 1px solid #ccc; border-bottom: 1px solid #09418b;vertical-align: middle;}
+.simple_board thead tr th:last-child {border-right:0;}
+.simple_board tbody tr th {padding: 8px 5px; text-align: center; background:#f7f7f7; color:#09418b; border-bottom: 1px solid #ccc; border-right:1px solid #ddd; vertical-align:middle;}
+.simple_board tbody tr th:last-child {border-right:0;}
+.simple_board tbody tr td {padding: 8px 5px; text-align: center; border-bottom: 1px solid #ccc; border-right:1px solid #ddd; vertical-align: middle;}
+.simple_board tbody tr td:last-child {border-right:0;}
+
+table.tbw800 {
+	width: 900px;
+}
+
+.left { text-align: left; }
+.right { text-align: right; }
+
+.edit_txt { font-weight: bold; color: #09418b; text-decoration: underline; cursor: pointer; }
+
+.radio {
+	margin-top: -3px;
+}
+
+input[type='text'], input[type='password'], input[type='number']{/*  width:100%;  */ font-size:1rem; border:1px solid #ccc; box-sizing:border-box; }
+input[type=checkbox], input[type=radio]{vertical-align:middle; cursor:pointer;}
+
+.btn_major{display:inline-block; background:#09418b; border: 2px solid #09418b; font-weight:800; color: #ffffff!important;border-radius:4px;padding:3px 10px;font-size:0.93rem; margin:2px 0; cursor:pointer;}
+.btn_major:hover{background:#23b5c9; color: #ffffff; border: 2px solid #23b5c9; transition:200ms ease-out all;}
+.btn_red{display:inline-block;background:#ef2e74; border: 2px solid #ef2e74; font-weight:800; color: #ffffff;border-radius:4px;padding:3px 10px;font-size:0.93rem; margin:2px 0; cursor:pointer;}
+.btn_red:hover{background:#ffffff; color:#ef2e74; transition:200ms ease-out all; }
